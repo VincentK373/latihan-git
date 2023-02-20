@@ -1,0 +1,57 @@
+/* inline */
+ul#inline li{
+    display: inline;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+
+/* block */
+
+span.block
+{
+    display: block;
+    background-color: yellow;
+    padding: 10px;
+    margin: 5px;
+}
+
+span#block
+{
+    display: block;
+    background-color: orange;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* inline block */
+
+span#inline-block{
+    display: inline-block;
+    background-color: yellow;
+    padding: 10px;
+    margin: 5px;
+    height: 50px;
+    width: 70px;
+
+}
+
+span.inline-block{
+    display: inline-block;
+    background-color: orange;
+    padding: 10px;
+    margin: 5px;
+    height: 50px;
+    width: 70px;
+}
+
+/* none */
+p#none{
+    display: none;
+}
+
+/* hidden */
+p#hidden{
+    visibility: hidden;
+}
